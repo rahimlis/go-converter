@@ -7,9 +7,9 @@ import (
 	"strings"
 
 	"github.com/dave/jennifer/jen"
-	"github.com/jmattheis/goverter/builder"
-	"github.com/jmattheis/goverter/xtype"
 	"github.com/pkg/errors"
+	"github.com/rahimlis/go-converter/builder"
+	"github.com/rahimlis/go-converter/xtype"
 )
 
 const (

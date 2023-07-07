@@ -21,13 +21,13 @@ input:
         }
 error: |-
     Error while creating converter method:
-        func (github.com/jmattheis/goverter/execution.Converter).ConvertPerson(source github.com/jmattheis/goverter/execution.Input) github.com/jmattheis/goverter/execution.Output
+        func (github.com/rahimlis/go-converter/execution.Converter).ConvertPerson(source github.com/rahimlis/go-converter/execution.Input) github.com/rahimlis/go-converter/execution.Output
 
-    | github.com/jmattheis/goverter/execution.Input
+    | github.com/rahimlis/go-converter/execution.Input
     |
     |      | string
     |      |
-    |      |        | func github.com/jmattheis/goverter/execution.Enhance(s int) string
+    |      |        | func github.com/rahimlis/go-converter/execution.Enhance(s int) string
     |      |        |
     |      |        |       | int
     |      |        |       |
@@ -40,10 +40,10 @@ error: |-
     |      |
     |      | string
     |
-    | github.com/jmattheis/goverter/execution.Output
+    | github.com/rahimlis/go-converter/execution.Output
 
     cannot not use
-    	func github.com/jmattheis/goverter/execution.Enhance(s int) string
+    	func github.com/rahimlis/go-converter/execution.Enhance(s int) string
     because source type mismatch
 
     Extend method param type: int

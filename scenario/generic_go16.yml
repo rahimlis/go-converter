@@ -1,6 +1,6 @@
 input:
     go.mod: |-
-        module github.com/jmattheis/goverter/execution
+        module github.com/rahimlis/go-converter/execution
         go 1.16
     input.go: |
         package execution
@@ -26,9 +26,9 @@ input:
             Age int
         }
 error: |-
-    could not load package github.com/jmattheis/goverter/execution
+    could not load package github.com/rahimlis/go-converter/execution
 
-    -: # github.com/jmattheis/goverter/execution
+    -: # github.com/rahimlis/go-converter/execution
     ./input.go:5:32: type instantiation requires go1.18 or later (-lang was set to go1.16; check go.mod)
     ./input.go:5:54: type instantiation requires go1.18 or later (-lang was set to go1.16; check go.mod)
     ./input.go:8:19: type parameter requires go1.18 or later (-lang was set to go1.16; check go.mod)

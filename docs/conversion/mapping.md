@@ -293,8 +293,8 @@ comment can be added to both the converter interface or to a specific
 conversion method.
 
 !> Using this setting is not recommended, because this can easily lead to
-   unwanted behavior when e.g. renaming fields on a struct and forgetting to
-   change the goverter converter accordingly.
+unwanted behavior when e.g. renaming fields on a struct and forgetting to
+change the goverter converter accordingly.
 
 <details>
   <summary>Example (click to expand)</summary>
@@ -349,8 +349,8 @@ can use `goverter:ignoreUnexported`, to ignore these. The comment can be added
 to both the converter interface or to a specific conversion method.
 
 !> Using this setting is not recommended, because this can easily lead to
-   unwanted behavior. When a struct is having unexported fields, you most likely
-   have to call a custom constructor method to correctly instantiate this type.
+unwanted behavior. When a struct is having unexported fields, you most likely
+have to call a custom constructor method to correctly instantiate this type.
 
 <details>
   <summary>Example (click to expand)</summary>

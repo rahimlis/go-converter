@@ -372,9 +372,9 @@ As `[Mapping]` you can use everything that's described in
 
 The `[Mapping Method]` may have:
 
--   no parameters
--   one parameter passing the source of the conversion
--   two parameters passing the converter interface and the source of the conversion
+- no parameters
+- one parameter passing the source of the conversion
+- two parameters passing the converter interface and the source of the conversion
 
 You can extend methods from external packages by separating the package path
 with `:` from the method.

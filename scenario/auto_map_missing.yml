@@ -26,9 +26,9 @@ input:
         }
 error: |-
     Error while creating converter method:
-        func (github.com/jmattheis/goverter/execution.Converter).Convert(github.com/jmattheis/goverter/execution.Person) github.com/jmattheis/goverter/execution.FlatPerson
+        func (github.com/rahimlis/go-converter/execution.Converter).Convert(github.com/rahimlis/go-converter/execution.Person) github.com/rahimlis/go-converter/execution.FlatPerson
 
-    | github.com/jmattheis/goverter/execution.Person
+    | github.com/rahimlis/go-converter/execution.Person
     |
     |      | goverter:autoMap
     |      |
@@ -37,6 +37,6 @@ error: |-
     |
     |
     |
-    | github.com/jmattheis/goverter/execution.FlatPerson
+    | github.com/rahimlis/go-converter/execution.FlatPerson
 
     "Abc" does not exist

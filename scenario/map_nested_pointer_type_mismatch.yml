@@ -19,11 +19,11 @@ input:
         }
 error: |-
     Error while creating converter method:
-        func (github.com/jmattheis/goverter/execution.Converter).Convert(source github.com/jmattheis/goverter/execution.Input) github.com/jmattheis/goverter/execution.Output
+        func (github.com/rahimlis/go-converter/execution.Converter).Convert(source github.com/rahimlis/go-converter/execution.Input) github.com/rahimlis/go-converter/execution.Output
 
-    | github.com/jmattheis/goverter/execution.Input
+    | github.com/rahimlis/go-converter/execution.Input
     |
-    |      | *github.com/jmattheis/goverter/execution.Nested
+    |      | *github.com/rahimlis/go-converter/execution.Nested
     |      |
     |      |      | *string (It is a pointer because the nested property in the goverter:map was a pointer)
     |      |      |
@@ -34,6 +34,6 @@ error: |-
     |
     |
     |
-    | github.com/jmattheis/goverter/execution.Output
+    | github.com/rahimlis/go-converter/execution.Output
 
     TypeMismatch: Cannot convert *string to string

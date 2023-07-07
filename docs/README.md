@@ -1,16 +1,16 @@
-<a href="https://github.com/jmattheis/goverter/actions/workflows/build.yml">
-    <img alt="Build Status" src="https://github.com/jmattheis/goverter/actions/workflows/build.yml/badge.svg">
+<a href="https://github.com/rahimlis/go-converter/actions/workflows/build.yml">
+    <img alt="Build Status" src="https://github.com/rahimlis/go-converter/actions/workflows/build.yml/badge.svg">
 </a>
 <a href="https://codecov.io/gh/jmattheis/goverter">
     <img alt="codecov" src="https://codecov.io/gh/jmattheis/goverter/branch/main/graph/badge.svg">
 </a>
-<a href="https://goreportcard.com/report/github.com/jmattheis/goverter">
-    <img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/jmattheis/goverter">
+<a href="https://goreportcard.com/report/github.com/rahimlis/go-converter">
+    <img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/rahimlis/go-converter">
 </a>
-<a href="https://pkg.go.dev/github.com/jmattheis/goverter">
-    <img alt="Go Reference" src="https://pkg.go.dev/badge/github.com/jmattheis/goverter.svg">
+<a href="https://pkg.go.dev/github.com/rahimlis/go-converter">
+    <img alt="Go Reference" src="https://pkg.go.dev/badge/github.com/rahimlis/go-converter.svg">
 </a>
-<a href="https://github.com/jmattheis/goverter/releases/latest">
+<a href="https://github.com/rahimlis/go-converter/releases/latest">
     <img alt="latest release" src="https://img.shields.io/github/release/jmattheis/goverter.svg">
 </a>
 
@@ -31,7 +31,7 @@ use reflection.
 
 1. Create your converter interface and mark it with a comment containing `goverter:converter`
 
-    `input.go`
+   `input.go`
 
     ```go
     package example
@@ -59,15 +59,15 @@ use reflection.
     }
     ```
 
-    See [Conversion](https://goverter.jmattheis.de/#/conversion) for more information.
+   See [Conversion](https://goverter.jmattheis.de/#/conversion) for more information.
 
 1. Run `goverter`:
 
     ```bash
-    $ go run github.com/jmattheis/goverter/cmd/goverter@GITHUB_VERSION ./
+    $ go run github.com/rahimlis/go-converter/cmd/goverter@GITHUB_VERSION ./
     ```
 
-    See [Installation](https://goverter.jmattheis.de/#/install) for more information.
+   See [Installation](https://goverter.jmattheis.de/#/install) for more information.
 
 1. goverter created a file at `./generated/generated.go`, it may look like this:
 

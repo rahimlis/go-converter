@@ -8,6 +8,6 @@ input:
         }
 error: |-
     Error while parsing extend in
-        github.com/jmattheis/goverter/execution.Converter
+        github.com/rahimlis/go-converter/execution.Converter
 
     HelloWorld does not exist in scope

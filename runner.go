@@ -6,8 +6,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/jmattheis/goverter/comments"
-	"github.com/jmattheis/goverter/generator"
+	"github.com/rahimlis/go-converter/comments"
+	"github.com/rahimlis/go-converter/generator"
 )
 
 // GenerateConfig the config for generating a converter.
@@ -15,7 +15,7 @@ type GenerateConfig struct {
 	// PackageName is the package to use for the generated code.
 	PackageName string
 	// ScanDir is the package with golang files to scan for goverter tags.
-	ScanDir string
+	ScanDir []string
 	// ExtendMethods is a list of extensions to load in addition to goverter:extend statements
 	// declared on the interface itself.
 	ExtendMethods []string

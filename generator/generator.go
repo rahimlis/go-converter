@@ -7,10 +7,10 @@ import (
 	"strings"
 
 	"github.com/dave/jennifer/jen"
-	"github.com/jmattheis/goverter/builder"
-	"github.com/jmattheis/goverter/comments"
-	"github.com/jmattheis/goverter/namer"
-	"github.com/jmattheis/goverter/xtype"
+	"github.com/rahimlis/go-converter/builder"
+	"github.com/rahimlis/go-converter/comments"
+	"github.com/rahimlis/go-converter/namer"
+	"github.com/rahimlis/go-converter/xtype"
 	"golang.org/x/tools/go/packages"
 )
 

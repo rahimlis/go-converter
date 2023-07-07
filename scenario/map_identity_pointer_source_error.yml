@@ -22,15 +22,15 @@ input:
         }
 error: |-
     Error while creating converter method:
-        func (github.com/jmattheis/goverter/execution.Converter).ConvertPerson(source github.com/jmattheis/goverter/execution.Person) github.com/jmattheis/goverter/execution.APIPerson
+        func (github.com/rahimlis/go-converter/execution.Converter).ConvertPerson(source github.com/rahimlis/go-converter/execution.Person) github.com/rahimlis/go-converter/execution.APIPerson
 
-    | github.com/jmattheis/goverter/execution.Person
+    | github.com/rahimlis/go-converter/execution.Person
     |
     |      | goverter:map . FullName
     |      |
-    |      |        | func github.com/jmattheis/goverter/execution.ToFullName(input *github.com/jmattheis/goverter/execution.Person) string
+    |      |        | func github.com/rahimlis/go-converter/execution.ToFullName(input *github.com/rahimlis/go-converter/execution.Person) string
     |      |        |
-    |      |        |          | *github.com/jmattheis/goverter/execution.Person
+    |      |        |          | *github.com/rahimlis/go-converter/execution.Person
     |      |        |          |
     source.        :ToFullName(source)
     target.FullName
@@ -41,11 +41,11 @@ error: |-
     |      |
     |      | string
     |
-    | github.com/jmattheis/goverter/execution.APIPerson
+    | github.com/rahimlis/go-converter/execution.APIPerson
 
     cannot not use
-    	func github.com/jmattheis/goverter/execution.ToFullName(input *github.com/jmattheis/goverter/execution.Person) string
+    	func github.com/rahimlis/go-converter/execution.ToFullName(input *github.com/rahimlis/go-converter/execution.Person) string
     because source type mismatch
 
-    Extend method param type: *github.com/jmattheis/goverter/execution.Person
-    Converter source type: github.com/jmattheis/goverter/execution.Person
+    Extend method param type: *github.com/rahimlis/go-converter/execution.Person
+    Converter source type: github.com/rahimlis/go-converter/execution.Person

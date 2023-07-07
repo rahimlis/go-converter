@@ -8,7 +8,7 @@ input:
         }
 error: |-
     Error while parsing extend in
-        github.com/jmattheis/goverter/execution.Converter
+        github.com/rahimlis/go-converter/execution.Converter
 
     package path must not be empty in the custom method ":Convert".
     See https://goverter.jmattheis.de/#/conversion/custom

@@ -20,9 +20,9 @@ error: |-
     Overlapping field mapping found.
 
     Please move the field related goverter:* comments from this method:
-        func (github.com/jmattheis/goverter/execution.Converter).Convert(source github.com/jmattheis/goverter/execution.Input) *github.com/jmattheis/goverter/execution.Output
+        func (github.com/rahimlis/go-converter/execution.Converter).Convert(source github.com/rahimlis/go-converter/execution.Input) *github.com/rahimlis/go-converter/execution.Output
 
     to this method:
-        func (github.com/jmattheis/goverter/execution.Converter).ConvertSub(source github.com/jmattheis/goverter/execution.Input) github.com/jmattheis/goverter/execution.Output
+        func (github.com/rahimlis/go-converter/execution.Converter).ConvertSub(source github.com/rahimlis/go-converter/execution.Input) github.com/rahimlis/go-converter/execution.Output
 
     Goverter will use ConvertSub inside the implementation of Convert, thus, field related settings would be ignored.

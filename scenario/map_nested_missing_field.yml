@@ -19,11 +19,11 @@ input:
         }
 error: |-
     Error while creating converter method:
-        func (github.com/jmattheis/goverter/execution.Converter).Convert(source github.com/jmattheis/goverter/execution.Input) github.com/jmattheis/goverter/execution.Output
+        func (github.com/rahimlis/go-converter/execution.Converter).Convert(source github.com/rahimlis/go-converter/execution.Input) github.com/rahimlis/go-converter/execution.Output
 
-    | github.com/jmattheis/goverter/execution.Input
+    | github.com/rahimlis/go-converter/execution.Input
     |
-    |      | github.com/jmattheis/goverter/execution.Nested
+    |      | github.com/rahimlis/go-converter/execution.Nested
     |      |
     |      |      | int
     |      |      |
@@ -38,6 +38,6 @@ error: |-
     |
     |
     |
-    | github.com/jmattheis/goverter/execution.Output
+    | github.com/rahimlis/go-converter/execution.Output
 
     Cannot access 'Oops' on int.

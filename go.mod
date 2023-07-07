@@ -1,4 +1,4 @@
-module github.com/jmattheis/goverter
+module github.com/rahimlis/go-converter
 
 go 1.16
 

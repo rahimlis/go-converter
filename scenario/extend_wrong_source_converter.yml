@@ -11,6 +11,6 @@ input:
         }
 error: |-
     Error while parsing extend in
-        github.com/jmattheis/goverter/execution.Converter
+        github.com/rahimlis/go-converter/execution.Converter
 
-    the first parameter must be of type github.com/jmattheis/goverter/execution.Converter
+    the first parameter must be of type github.com/rahimlis/go-converter/execution.Converter

@@ -1,4 +1,4 @@
-//go:generate go run github.com/jmattheis/goverter/cmd/goverter github.com/jmattheis/goverter/example/errors
+//go:generate go run github.com/rahimlis/go-converter/cmd/goverter github.com/rahimlis/go-converter/example/errors
 package errors
 
 import (

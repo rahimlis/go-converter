@@ -9,7 +9,7 @@ input:
 
         // goverter:converter
         type Converter interface {
-            // goverter:map Age | github.com/jmattheis/goverter/execution/external:IntToString
+            // goverter:map Age | github.com/rahimlis/go-converter/execution/external:IntToString
             Convert(source Input) Output
         }
 
@@ -21,7 +21,7 @@ input:
         }
 error: |-
     Error while creating converter method:
-        func (github.com/jmattheis/goverter/execution.Converter).Convert(source github.com/jmattheis/goverter/execution.Input) github.com/jmattheis/goverter/execution.Output
+        func (github.com/rahimlis/go-converter/execution.Converter).Convert(source github.com/rahimlis/go-converter/execution.Input) github.com/rahimlis/go-converter/execution.Output
 
-    failed to load package "github.com/jmattheis/goverter/execution/external", try adding a blank import for it: -: # github.com/jmattheis/goverter/execution/external
+    failed to load package "github.com/rahimlis/go-converter/execution/external", try adding a blank import for it: -: # github.com/rahimlis/go-converter/execution/external
     external/method.go:3:12: cannot use 5 (untyped int constant) as string value in return statement
