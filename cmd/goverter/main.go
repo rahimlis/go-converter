@@ -3,10 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
+	goverter "github.com/rahimlis/go-converter"
 	"os"
 	"strings"
-
-	goverter "github.com/jmattheis/goverter"
 )
 
 func main() {
@@ -24,11 +23,10 @@ func main() {
 	flag.Parse()
 
 	args := flag.Args()
-	if len(args) != 1 {
-		_, _ = fmt.Fprintln(os.Stderr, "expected one argument")
+	if len(args) < 1 {
+		_, _ = fmt.Fprintln(os.Stderr, "expected at least one argument")
 		return
 	}
-	pattern := args[0]
 	var extendMethods []string
 	if *extends != "" {
 		extendMethods = strings.Split(*extends, ",")
@@ -36,7 +34,7 @@ func main() {
 
 	err := goverter.GenerateConverterFile(*output, goverter.GenerateConfig{
 		PackageName:             *packageName,
-		ScanDir:                 pattern,
+		ScanDir:                 args,
 		ExtendMethods:           extendMethods,
 		PackagePath:             *packagePath,
 		WrapErrors:              *wrapErrors,

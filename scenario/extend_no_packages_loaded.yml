@@ -8,6 +8,6 @@ input:
         }
 error: |-
     Error while parsing extend in
-        github.com/jmattheis/goverter/execution.Converter
+        github.com/rahimlis/go-converter/execution.Converter
 
     no packages were loaded for "file=/nonexisting", make sure it is a valid golang package

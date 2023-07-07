@@ -3,8 +3,8 @@ package errors_test
 import (
 	"testing"
 
-	"github.com/jmattheis/goverter/example/errors"
-	"github.com/jmattheis/goverter/example/errors/generated"
+	"github.com/rahimlis/go-converter/example/errors"
+	"github.com/rahimlis/go-converter/example/errors/generated"
 	"github.com/stretchr/testify/require"
 )
 

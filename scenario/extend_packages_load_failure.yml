@@ -8,6 +8,6 @@ input:
         }
 error_starts_with: |-
     Error while parsing extend in
-        github.com/jmattheis/goverter/execution.Converter
+        github.com/rahimlis/go-converter/execution.Converter
 
     packages load failed on "notaquery=abc": invalid query type "notaquery"

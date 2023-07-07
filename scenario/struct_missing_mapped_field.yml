@@ -17,9 +17,9 @@ input:
         }
 error: |-
     Error while creating converter method:
-        func (github.com/jmattheis/goverter/execution.Converter).Convert(source github.com/jmattheis/goverter/execution.Input) github.com/jmattheis/goverter/execution.Output
+        func (github.com/rahimlis/go-converter/execution.Converter).Convert(source github.com/rahimlis/go-converter/execution.Input) github.com/rahimlis/go-converter/execution.Output
 
-    | github.com/jmattheis/goverter/execution.Input
+    | github.com/rahimlis/go-converter/execution.Input
     |
     |      | ???
     |      |
@@ -28,6 +28,6 @@ error: |-
     |
     |
     |
-    | github.com/jmattheis/goverter/execution.Output
+    | github.com/rahimlis/go-converter/execution.Output
 
     Cannot find the mapped field on the source entry: "Name3" does not exist.

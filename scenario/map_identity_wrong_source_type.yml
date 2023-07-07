@@ -20,13 +20,13 @@ input:
         }
 error: |-
     Error while creating converter method:
-        func (github.com/jmattheis/goverter/execution.Converter).Convert(source github.com/jmattheis/goverter/execution.Input) github.com/jmattheis/goverter/execution.Output
+        func (github.com/rahimlis/go-converter/execution.Converter).Convert(source github.com/rahimlis/go-converter/execution.Input) github.com/rahimlis/go-converter/execution.Output
 
-    | github.com/jmattheis/goverter/execution.Input
+    | github.com/rahimlis/go-converter/execution.Input
     |
     |      | goverter:map . Score
     |      |
-    |      |     | func github.com/jmattheis/goverter/execution.Identity(source int) int
+    |      |     | func github.com/rahimlis/go-converter/execution.Identity(source int) int
     |      |     |
     |      |     |        | int
     |      |     |        |
@@ -39,11 +39,11 @@ error: |-
     |      |
     |      | int
     |
-    | github.com/jmattheis/goverter/execution.Output
+    | github.com/rahimlis/go-converter/execution.Output
 
     cannot not use
-    	func github.com/jmattheis/goverter/execution.Identity(source int) int
+    	func github.com/rahimlis/go-converter/execution.Identity(source int) int
     because source type mismatch
 
     Extend method param type: int
-    Converter source type: github.com/jmattheis/goverter/execution.Input
+    Converter source type: github.com/rahimlis/go-converter/execution.Input

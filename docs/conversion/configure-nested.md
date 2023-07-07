@@ -31,6 +31,7 @@ type NestedOutput struct {
 ```
 
 You can't do it like this:
+
 ```go
 // goverter:converter
 type Converter interface {
@@ -38,6 +39,7 @@ type Converter interface {
     Convert([]Input) []Output
 }
 ```
+
 because Goverter doesn't doesn't apply the mapping to all sub conversions, as
 this could cause unexpected behavior. The correct way would be to define
 another conversion method like this:

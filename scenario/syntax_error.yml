@@ -7,9 +7,9 @@ input:
         }
         oops
 error: |-
-    could not load package github.com/jmattheis/goverter/execution
+    could not load package github.com/rahimlis/go-converter/execution
 
-    -: # github.com/jmattheis/goverter/execution
+    -: # github.com/rahimlis/go-converter/execution
     ./input.go:6:1: syntax error: non-declaration statement outside function body
 
     Goverter cannot generate converters when there are compile errors because it

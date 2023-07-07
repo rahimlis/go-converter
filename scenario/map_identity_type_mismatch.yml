@@ -27,9 +27,9 @@ input:
         }
 error: |-
     Error while creating converter method:
-        func (github.com/jmattheis/goverter/execution.Converter).ConvertPerson(source github.com/jmattheis/goverter/execution.Person) github.com/jmattheis/goverter/execution.APIPerson
+        func (github.com/rahimlis/go-converter/execution.Converter).ConvertPerson(source github.com/rahimlis/go-converter/execution.Person) github.com/rahimlis/go-converter/execution.APIPerson
 
-    | github.com/jmattheis/goverter/execution.Person
+    | github.com/rahimlis/go-converter/execution.Person
     |
     |      | goverter:map . Address
     |      |
@@ -40,8 +40,8 @@ error: |-
     |      |       |
     |      |       | string
     |      |
-    |      | github.com/jmattheis/goverter/execution.APIAddress
+    |      | github.com/rahimlis/go-converter/execution.APIAddress
     |
-    | github.com/jmattheis/goverter/execution.APIPerson
+    | github.com/rahimlis/go-converter/execution.APIPerson
 
     TypeMismatch: Cannot convert *string to string

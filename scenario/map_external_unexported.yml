@@ -9,7 +9,7 @@ input:
 
         // goverter:converter
         type Converter interface {
-            // goverter:map Age | github.com/jmattheis/goverter/execution/external:intToString
+            // goverter:map Age | github.com/rahimlis/go-converter/execution/external:intToString
             Convert(source Input) Output
         }
 
@@ -21,6 +21,6 @@ input:
         }
 error: |-
     Error while creating converter method:
-        func (github.com/jmattheis/goverter/execution.Converter).Convert(source github.com/jmattheis/goverter/execution.Input) github.com/jmattheis/goverter/execution.Output
+        func (github.com/rahimlis/go-converter/execution.Converter).Convert(source github.com/rahimlis/go-converter/execution.Input) github.com/rahimlis/go-converter/execution.Output
 
-    method github.com/jmattheis/goverter/execution/external:intToString is unexported
+    method github.com/rahimlis/go-converter/execution/external:intToString is unexported

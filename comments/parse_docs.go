@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/jmattheis/goverter/builder"
+	"github.com/rahimlis/go-converter/builder"
 	"golang.org/x/tools/go/packages"
 )
 
@@ -24,7 +24,7 @@ type MethodMapping map[string]Method
 // ParseDocsConfig provides input to the ParseDocs method below.
 type ParseDocsConfig struct {
 	// PackagePattern is a golang package pattern to scan, required.
-	PackagePattern string
+	PackagePattern []string
 	// WorkingDir is a directory to invoke the tool on. If omitted, current directory is used.
 	WorkingDir string
 }
@@ -73,7 +73,7 @@ func ParseDocs(config ParseDocsConfig) ([]Converter, error) {
 			packages.NeedModule | packages.NeedFiles | packages.NeedName | packages.NeedImports,
 		Dir: config.WorkingDir,
 	}
-	pkgs, err := packages.Load(loadCfg, config.PackagePattern)
+	pkgs, err := packages.Load(loadCfg, config.PackagePattern...)
 	if err != nil {
 		return nil, err
 	}

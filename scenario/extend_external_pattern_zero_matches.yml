@@ -9,7 +9,7 @@ input:
         }
 error: |-
     Error while parsing extend in
-        github.com/jmattheis/goverter/execution.Converter
+        github.com/rahimlis/go-converter/execution.Converter
 
     package strconv does not have methods with names that match
     the golang regexp pattern "Parse*" and a convert signature

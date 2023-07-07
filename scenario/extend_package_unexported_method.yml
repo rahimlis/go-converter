@@ -9,7 +9,7 @@ input:
         package structs
 
         // goverter:converter
-        // goverter:extend github.com/jmattheis/goverter/execution/convert:stringToBool
+        // goverter:extend github.com/rahimlis/go-converter/execution/convert:stringToBool
         type Converter interface {
             Convert(source Input) (Output, error)
         }
@@ -21,6 +21,6 @@ input:
         }
 error: |-
     Error while parsing extend in
-        github.com/jmattheis/goverter/execution.Converter
+        github.com/rahimlis/go-converter/execution.Converter
 
     could not extend: method stringToBool is unexported
