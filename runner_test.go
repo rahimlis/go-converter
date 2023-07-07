@@ -53,7 +53,7 @@ func TestScenario(t *testing.T) {
 					PackageName:             genPkgName,
 					WorkingDir:              execDir,
 					PackagePath:             "github.com/rahimlis/go-converter/execution/" + genPkgName,
-					ScanDir:                 "github.com/rahimlis/go-converter/execution",
+					ScanDir:                 []string{"github.com/rahimlis/go-converter/execution"},
 					ExtendMethods:           scenario.Extends,
 					WrapErrors:              scenario.WrapErrors,
 					IgnoredUnexportedFields: scenario.IgnoreUnexportedFields,
